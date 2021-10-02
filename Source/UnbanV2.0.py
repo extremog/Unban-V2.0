@@ -1,142 +1,164 @@
-#
-# This Is Free Tool By Soud Alanzi AKA @8Y
-# Dont Try Sell It Cuz It's Fucking Free
-# Github: https://github.com/Soud69
-# Instagram: https://instagram.com/8Y
-# Telegram: https://t.me/Soud69
-# Discord: Soud#5866
-#
+import requests
+from os import system
+import time
+import random
+import os
+from colorama import Fore
 
-try:
-    import requests
-    import os
-    from os import system, path
-    import threading
-    import random
-    system("title " + "Soud Was Here - @8Y - Soud#5866")
-    import colorama
-    from colorama import Fore
-    colorama.init(autoreset=True)
+u=Fore.LIGHTRED_EX
+y=Fore.LIGHTYELLOW_EX
+asd=Fore.LIGHTMAGENTA_EX
+acd=Fore.LIGHTGREEN_EX
+sd=Fore.LIGHTBLUE_EX
+done = 1
+reaper = input ("Enter Password : ")
+if reaper == "EYE" :
+        print ("Thanks..."*4)
+else :
+        print ("ERROR... ENTER PASSWORD...")
+        os.system("exit")
+print("loding")
+time.sleep(0.3)
+print("10%■□□□□□□□□□")
+time.sleep(0.3)
+print("20%■■□□□□□□□□")
+time.sleep(0.3)
+print("30%■■■□□□□□□□")
+time.sleep(0.3)
+print("40%■■■■□□□□□□")
+time.sleep(0.3)
+print("50%■■■■■□□□□□")
+time.sleep(0.3)
+print("60%■■■■■■□□□□")
+time.sleep(0.3)
+print("70%■■■■■■■□□□")
+time.sleep(0.3)
+print("80%■■■■■■■■□□")
+time.sleep(0.3)
+print("90%■■■■■■■■■□")
+time.sleep(0.3)
+print("100%■■■■■■■■■")
+time.sleep(0.4)        
+os.system('clear')
 
-except Exception as m:
-    print("Something Went Wrong\n")
-    print(m)
-    input()
-    exit()
+print(f"{asd}■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■")
 
-if path.exists("proxy.txt"):
-    proxyfile = open("proxy.txt", 'r').read().splitlines()
-else:
-    print("Pls Make proxy.txt file\n")
-    input()
-    exit()
+print(f"""{u}
 
-sent, spam, banned = 0, 0, 0
-logo = f"""
-{Fore.CYAN}         _______   __                                
-{Fore.CYAN}   ____ |  _  \ \ / /                                
-{Fore.CYAN}  / __ \ \ V / \ V /                                 
-{Fore.CYAN} / / _` |/ _ \  \ /                                  
-{Fore.CYAN}| | (_| | |_| | | |                                  
-{Fore.CYAN} \ \__,_\_____/ \_/                                  
-{Fore.CYAN}  \____/                                                                                          
-{Fore.GREEN} _   _       _                   _   _  _____  _____ 
-{Fore.GREEN}| | | |     | |                 | | | |/ __  \|  _  |
-{Fore.GREEN}| | | |_ __ | |__   __ _ _ __   | | | |`' / /'| |/' |
-{Fore.GREEN}| | | | '_ \| '_ \ / _` | '_ \  | | | |  / /  |  /| |
-{Fore.GREEN}| |_| | | | | |_) | (_| | | | | \ \_/ /./ /___\ |_/ /
-{Fore.GREEN} \___/|_| |_|_.__/ \__,_|_| |_|  \___/ \_____(_)___/                      
-"""
-print(logo)
-print(f"{Fore.RED}This Is Free Tool By Soud Alanzi And Not For Sale\n\n{Fore.RESET}{Fore.GREEN}Instagram: @8Y + @_agf\nDiscord: Soud#5866\n")
-account_username = input("Username: ")
-account_full_name = input("Account Name: ")
-account_email = input("Email: ")
-account_phone = int(input("Phone Number: "))
-message_contact = input("Contact Message (Leave It Empty To Use Default Message): ")
 
-if message_contact == "":
-    message_contact = "Hello Instagram Support, my account have been disabled by mistake, pls reactive it"
-threads_number = int(input("Threads: "))
+  __                        
+[  |                       
+ | |.--.   ,--.   _ .--.   
+ | '/'`\ \`'_\ : [ `.-. |  
+ |  \__/ |// | |, | | | |  
+[__;.__.' \'-;__/[___||__] 
+------------------------------------
+orginal by:6g7r_here
+  updated by:343o8
+  
+  make sure to follow us on instagram
+------------------------------------                           
+""")
+print(f"{asd}■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■")
+name = input(' (-) Name > : ')
+user = input('(-) User >  : ')
+email = input('(-) Email > : ')
+phone = int(input("P-N: "))
+band = int(input("""how did they kill you : 
+[1]: normal
+[2]: Plagiarism
+[3]: spam
+[4]: trade
+[5]: sexual 
+[6]: 13 years old
+[7]: hate
+[8]: self
+[+] enter chose: """))
+print("----------------------------------")
+if band == "1":
+    band = f"""My account has been disabled by accident, I didn’t broke any instagram rules , and i hope you help me reactive it my account
+               Username : @{name}
+               register : {email}"""
 
-def unban():
-    global spam, sent, banned, account_full_name, account_email, account_username, account_phone, message_contact
-    while 1:
-        proxy_dict = []
-        for proxy in proxyfile:
-            proxy_dict.append(proxy)
-            rnd = str(random.choice(proxy_dict))
-        try:
-            proxyfinal = {
-                "http": f"http://{rnd}",
-                "https": f"http://{rnd}"
+elif band == "2":
+    band = f"""Hello there is someone
+They claim that I am publishing racism and my personal account item
+But I do not have my personal account, I’m not racist, and you can check that and I will post clips to me personally
+Just help me please beg you I wish you a humorous arithmetic band as fast as possible
+my email : {email}
+user name : {user}
+    """
+
+elif band == "3":
+    band = """ Hello instagram support my account was disabled by mistake i am sure because I didn t violate any rules people reporting me and bullying me so thay report my account is there anyway you can help them get my account back thank you so much"""
+
+elif band == "4":
+    band = ""
+    
+elif band == "5":
+    	band = """
+ 	Hello Instagram, my account has been deactivated by mistake since I have not posted any porn content. I hope you will reactivate the account."""
+ 	
+elif band == "6":
+    	band = """
+ 	Hello Instagram, my account has been deactivated, as it is an account. I want to submit a report to restore this account. If you want proof, I will provide all proofs on your Tawasul email. Thank you.."""
+ 	
+elif band == "7":
+    	band = """
+ 	Hello Instagram, my account has been canceled for hate speech. I would like to prepare the account and swear not to break any Instagram policy."""
+
+elif band == "8":
+    	band = """
+ 	Hello Instagram, my account has been deactivated by mistake. I have not posted anything about suicide or self-killing."""
+ 	
+def unbanned():
+    unbanned = "https://help.instagram.com/ajax/help/contact/submit/page"
+    headers = {
+                "Host": "help.instagram.com",
+                "Accept": "*/*",
+                "X-FB-LSD": "AVr_Dx9PS9A",
+                "Accept-Encoding": "gzip, deflate, br",
+                "Accept-Language": "en-us",
+                "Content-Type": "application/x-www-form-urlencoded",
+                "Origin": "https://help.instagram.com",
+                "User-Agent": "Mozilla/5.0 (Linux; Android 11; SM-N975F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.105 Mobile Safari/537.36",
+                "Connection": "keep-alive",
+                "Referer": "https://help.instagram.com/contact/606967319425038?helpref=page_content",
             }
-            url = "https://www.facebook.com/ajax/help/contact/submit/page"
-            headers = {
-                "accept": "*/*",
-                "accept-encoding": "gzip, deflate, br",
-                "accept-language": "en-US,en;q=0.9",
-                "content-type": "application/x-www-form-urlencoded",
-                "origin": "https://www.facebook.com",
-                "referer": "https://www.facebook.com/help/instagram/contact/606967319425038",
-                "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.114 Safari/537.36",
-                "x-fb-lsd": "AVpTUe7mhU0"
-            }
-            data = {
-                "jazoest": 2934,
-                "lsd": 'AVpTUe7mhU0',
-                "name": account_full_name,
-                "email": account_email,
-                "instagram_username": account_username,
-                "mobile_number": account_phone,
-                "appeal_reason": message_contact,
+    data = {
+                "jazoest": 2890,
+                "lsd": "AVr_Dx9PS9A",
+                "name": name,
+                "instagram_username": user,
+                "email": email,
+                "mobile_number": phone,
+                "appeal_reason": band,
+                "support_form_id": 606967319425038,
+               'Field236858559849125_iso2_country_code':'SA',
+        'Field236858559849125':'المملكة العربية السعودية',
                 "support_form_id": 606967319425038,
                 "support_form_hidden_fields": "{}",
                 "support_form_fact_false_fields": "[]",
                 "__user": 0,
                 "__a": 1,
-                "__dyn": "7xe6Fo4OQ1PyWwHBWo5O12wAxu13wqovzEy58ogbUuw9-3K4o1j8hwem0nCq1ewcG0KEswaq1xwEwt81sbzo5iaw4Ugao884y0lW1TwoU2swdq0Ho2ew",
+                "__dyn": "7xe6Fo4OQ1PyWwHBWo5O12wAxu13wqovzEy58ogbUuw9-3K4o1j8hwem0nCq1ewcG0KEswaq1xwEw7BKdwnU1e42C220qu1TwoU2swdq0Ho2ew",
                 "__csr": "",
-                "__req": "g",
+                "__req": "h",
                 "__beoa": 0,
                 "__pc": "PHASED:DEFAULT",
                 "__bhv": 2,
-                "__no_rdbl": 0,
-                "dpr": 1,
-                "__ccg": "GOOD",
-                "__rev": "1003617880",
-                "__s": "ufr3b8:q2h5ui:co1t38",
-                "__hsi": "6950826502173272197-0",
+                "dpr": 3,
+                "__ccg": "EXCELLENT",
+                "__rev": 1003521343,
+                "__s": "8x0mgw:dal0sr:s5g412",
+                "__hsi": "6943937313156005653-0",
                 "__comet_req": 0,
-                "__spin_r": 1003617880,
+                "__spin_r": 1003521343,
                 "__spin_b": "trunk",
-                "__spin_t": 1618365408
+                "__spin_t": 1616761394,
             }
-            req = requests.post(url, data=data, headers=headers, proxies=proxyfinal, timeout=3)
-            if ">Form submitted successfully" in req.text:
-                sent += 1
-                print(f"\rSent : {sent} | Spam : {spam} | Error: {banned}", end="")
-            elif "You may want to slow down or stop to avoid a restriction on your account" in req.text:
-                spam += 1
-                print(f"\rSent : {sent} | Spam : {spam} | Error: {banned}", end="")
-            elif "The username or short-link you provided does not belong to an inactive Instagram Account." in req.text:
-                sent += 1
-                print("\nUnbanned !")
-                print(f"\n\rSent : {sent} | Spam : {spam} | Error: {banned}\n\n")
-                input("Click Enter To Exit...")
-                exit()
-            else:
-                banned += 1
-                print(f"\rSent : {sent} | Spam : {spam} | Error: {banned}", end="")
-        except:
-            banned += 1
-            print(f"\rSent : {sent} | Spam : {spam} | Error: {banned}", end="")
-
-
-threads = []
-for i in range(threads_number + 1):
-    t = threading.Thread(target=unban)
-    t.start()
-    threads.append(t)
-for i in threads:
-    i.join()
+    while True:
+        req = requests.post(unbanned, headers=headers,  data=data)
+        print(f"{acd}sent")
+ 
+unbanned()
